@@ -1,0 +1,17 @@
+name: 'oja_no_d8'
+type: theme
+description: 'My first drupal 8 theme'
+stylesheets:
+  all:
+    - css/styles.css
+regions:
+  header: 'Header'
+  messages: 'Messages'
+  navigation: 'Navigation'
+  content: 'Main content'
+  footer: 'Footer'
+features:
+    - favicon
+    - logo
+version: 8.0.x
+core: 8.x
